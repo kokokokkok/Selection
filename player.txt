@@ -1,0 +1,69 @@
+<VertexBuffer name="vb">
+	<Vertex position="1, 1, 0" />
+	<Vertex position="-1, 1, 0" />
+	<Vertex position="0, 2.7, 0" />
+	<Vertex position="0, 2, 2.1" />
+</VertexBuffer>
+
+<IndexBuffer name="ib">
+	<Triangle indices="3, 1, 0"/>
+        <Triangle indices="2, 1, 0"/>
+        <Triangle indices="3, 2, 0"/>
+        <Triangle indices="3, 1, 2"/>
+</IndexBuffer>
+
+<Texture name="texture" />
+
+<Batch 
+	name="robo"
+	vertexBuffer="vb"
+	indexBuffer="ib"
+	texture="texture"
+	blend="opaque"/>
+
+
+
+
+
+
+<VertexBuffer name="bullet">
+	<Vertex position="0, 0, 0.5"/>
+	<Vertex position="0, 0.5, 0"/>
+	<Vertex position="0.43, -0.25, 0"/>
+	<Vertex position="-0.43, -0.25, 0"/>
+</VertexBuffer>
+
+<IndexBuffer name="bullet">
+	<Triangle indices="0,1,2"/>
+	<Triangle indices="0,1,3"/>
+	<Triangle indices="0,2,3"/>
+	<Triangle indices="1,2,3"/>
+</IndexBuffer>
+
+<Batch 
+	name="bullet"
+	vertexBuffer="bullet"
+	indexBuffer="bullet"
+	blend="additive"/>
+
+
+
+
+
+
+
+<VertexBuffer name="sword">
+	<Vertex position="-0.5, 0, 0"/>
+	<Vertex position="0.5, 0, 0"/>
+	<Vertex position="0.5, 0, 0.5"/>
+</VertexBuffer>
+
+<IndexBuffer name="sword">
+	<Triangle indices="0,1,2"/>
+</IndexBuffer>
+
+<Batch 
+	name="sword"
+	vertexBuffer="sword"
+	indexBuffer="sword"
+	blend="additive"/>

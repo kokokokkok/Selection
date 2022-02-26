@@ -1,0 +1,211 @@
+<VertexBuffer name="draw">
+<Vertex position="-16, 0, 8" uv="1, 0"/>
+<Vertex position="-24, 2, 8" uv="0, 0"/>
+<Vertex position="-24, 2, -40" uv="1, 0"/>
+<Vertex position="-88, 2, -40" uv="0, 1"/>
+<Vertex position="-88, 2, 8" uv="1, 1"/>
+<Vertex position="-24, 0, 12.0" uv="1, 0"/>
+<Vertex position="-40, 0, 12.0" uv="0, 0"/>
+<Vertex position="-40, 2, 8" uv="1, 1"/>
+<Vertex position="-40, 2, 16" uv="0, 1"/>
+<Vertex position="-56, 2, 16" uv="0, 0"/>
+<Vertex position="-56, 2, 8" uv="0, 0"/>
+<Vertex position="-72, 0, 12.0" uv="0, 0"/>
+<Vertex position="-72, 2, 8" uv="0, 0"/>
+<Vertex position="-88, 0, 12.0" uv="0, 0"/>
+<Vertex position="-88, 2, 8" uv="0, 0"/>
+<Vertex position="-104, 0, 8" uv="0, 1"/>
+<Vertex position="-104, 0, 24" uv="1, 0"/>
+<Vertex position="-120, 0, 24" uv="1, 1"/>
+<Vertex position="-104, 0, 104" uv="0, 0"/>
+<Vertex position="-120, 2, 104" uv="0, 1"/>
+<Vertex position="-104, 0, 80" uv="1, 1"/>
+<Vertex position="-104, 2, 120" uv="0, 1"/>
+<Vertex position="-100.0, 0, 104" uv="0, 0"/>
+<Vertex position="-100.0, 0, 80" uv="1, 1"/>
+<Vertex position="0, 2, 120" uv="0, 0"/>
+<Vertex position="0, 2, 80" uv="1, 0"/>
+<Vertex position="-16, 2, 80" uv="0, 0"/>
+<Vertex position="0, 5, 24" uv="1, 0"/>
+<Vertex position="-16, 0, 24" uv="0, 1"/>
+<Vertex position="-28.0, 0, 80" uv="0, 0"/>
+<Vertex position="-28.0, 0, 56" uv="0, 0"/>
+<Vertex position="-32, 2, 80" uv="0, 0"/>
+<Vertex position="-32, 0, 56" uv="1, 0"/>
+<Vertex position="-80, 2, 80" uv="0, 1"/>
+<Vertex position="-80, 0, 56" uv="1, 1"/>
+<Vertex position="-84.0, 0, 80" uv="0, 0"/>
+<Vertex position="-84.0, 0, 64" uv="0, 0"/>
+<Vertex position="-48, 0, 56" uv="0, 0"/>
+<Vertex position="-56, 0, 56" uv="0, 0"/>
+<Vertex position="-48, 0, 52.0" uv="0, 0"/>
+<Vertex position="-56, 0, 52.0" uv="0, 0"/>
+<Vertex position="-80, 2, 64" uv="0, 0"/>
+<Vertex position="-104, 2, 80" uv="0, 0"/>
+<Vertex position="0, 2, 80" uv="1, 0"/>
+<Vertex position="-16, 2, 80" uv="0, 0"/>
+<Vertex position="-16, 20, 8" uv="1, 0"/>
+<Vertex position="-24, 20, 8" uv="0, 0"/>
+<Vertex position="0, 20, 120" uv="0, 0"/>
+<Vertex position="0, 20, 80" uv="1, 0"/>
+<Vertex position="-16, 20, 80" uv="0, 0"/>
+<Vertex position="0, 20, 24" uv="1, 0"/>
+<Vertex position="-16, 20, 24" uv="0, 1"/>
+<Vertex position="-32, 20, 80" uv="0, 0"/>
+<Vertex position="-88, 20, 8" uv="1, 1"/>
+<Vertex position="-104, 20, 8" uv="0, 1"/>
+<Vertex position="-104, 20, 24" uv="1, 0"/>
+<Vertex position="-120, 20, 24" uv="1, 1"/>
+<Vertex position="-104, 20, 104" uv="0, 0"/>
+<Vertex position="-120, 20, 104" uv="0, 1"/>
+<Vertex position="-104, 20, 80" uv="1, 1"/>
+<Vertex position="-80, 20, 80" uv="0, 1"/>
+<Vertex position="0, 0, 120" uv="0, 0"/>
+<Vertex position="-88, 0, 8" uv="1, 1"/>
+<Vertex position="-80, 0, 80" uv="0, 1"/>
+<Vertex position="-16, 0, 80" uv="0, 0"/>
+<Vertex position="-32, 0, 80" uv="0, 0"/>
+<Vertex position="-104, 20, 120" uv="0, 1"/>
+<Vertex position="-24, 20, -40" uv="1, 0"/>
+<Vertex position="-88, 20, -40" uv="0, 1"/>
+<Vertex position="-104, 2, 104" uv="0, 0"/>
+</VertexBuffer>
+<VertexBuffer name="collision">
+<Vertex position="-16, 0, 8" uv="1, 0"/>
+<Vertex position="-24, 2, 8" uv="0, 0"/>
+<Vertex position="-24, 2, -40" uv="1, 0"/>
+<Vertex position="-88, 2, -40" uv="0, 1"/>
+<Vertex position="-88, 2, 8" uv="1, 1"/>
+<Vertex position="-24, 0, 12.0" uv="1, 0"/>
+<Vertex position="-40, 0, 12.0" uv="0, 0"/>
+<Vertex position="-40, 2, 8" uv="1, 1"/>
+<Vertex position="-40, 2, 16" uv="0, 1"/>
+<Vertex position="-56, 2, 16" uv="0, 0"/>
+<Vertex position="-56, 2, 8" uv="0, 0"/>
+<Vertex position="-72, 0, 12.0" uv="0, 0"/>
+<Vertex position="-72, 2, 8" uv="0, 0"/>
+<Vertex position="-88, 0, 12.0" uv="0, 0"/>
+<Vertex position="-88, 2, 8" uv="0, 0"/>
+<Vertex position="-104, 0, 8" uv="0, 1"/>
+<Vertex position="-104, 0, 24" uv="1, 0"/>
+<Vertex position="-120, 0, 24" uv="1, 1"/>
+<Vertex position="-104, 0, 104" uv="0, 0"/>
+<Vertex position="-120, 2, 104" uv="0, 1"/>
+<Vertex position="-104, 0, 80" uv="1, 1"/>
+<Vertex position="-104, 2, 120" uv="0, 1"/>
+<Vertex position="-100.0, 0, 104" uv="0, 0"/>
+<Vertex position="-100.0, 0, 80" uv="1, 1"/>
+<Vertex position="0, 2, 120" uv="0, 0"/>
+<Vertex position="0, 2, 80" uv="1, 0"/>
+<Vertex position="-16, 2, 80" uv="0, 0"/>
+<Vertex position="0, 5, 24" uv="1, 0"/>
+<Vertex position="-16, 0, 24" uv="0, 1"/>
+<Vertex position="-28.0, 0, 80" uv="0, 0"/>
+<Vertex position="-28.0, 0, 56" uv="0, 0"/>
+<Vertex position="-32, 2, 80" uv="0, 0"/>
+<Vertex position="-32, 0, 56" uv="1, 0"/>
+<Vertex position="-80, 2, 80" uv="0, 1"/>
+<Vertex position="-80, 0, 56" uv="1, 1"/>
+<Vertex position="-84.0, 0, 80" uv="0, 0"/>
+<Vertex position="-84.0, 0, 64" uv="0, 0"/>
+<Vertex position="-48, 0, 56" uv="0, 0"/>
+<Vertex position="-56, 0, 56" uv="0, 0"/>
+<Vertex position="-48, 0, 52.0" uv="0, 0"/>
+<Vertex position="-56, 0, 52.0" uv="0, 0"/>
+<Vertex position="-80, 2, 64" uv="0, 0"/>
+<Vertex position="-104, 2, 80" uv="0, 0"/>
+<Vertex position="0, 2, 80" uv="1, 0"/>
+<Vertex position="-16, 2, 80" uv="0, 0"/>
+<Vertex position="-16, 20, 8" uv="1, 0"/>
+<Vertex position="-24, 20, 8" uv="0, 0"/>
+<Vertex position="0, 20, 120" uv="0, 0"/>
+<Vertex position="0, 20, 80" uv="1, 0"/>
+<Vertex position="-16, 20, 80" uv="0, 0"/>
+<Vertex position="0, 20, 24" uv="1, 0"/>
+<Vertex position="-16, 20, 24" uv="0, 1"/>
+<Vertex position="-32, 20, 80" uv="0, 0"/>
+<Vertex position="-88, 20, 8" uv="1, 1"/>
+<Vertex position="-104, 20, 8" uv="0, 1"/>
+<Vertex position="-104, 20, 24" uv="1, 0"/>
+<Vertex position="-120, 20, 24" uv="1, 1"/>
+<Vertex position="-104, 20, 104" uv="0, 0"/>
+<Vertex position="-120, 20, 104" uv="0, 1"/>
+<Vertex position="-104, 20, 80" uv="1, 1"/>
+<Vertex position="-80, 20, 80" uv="0, 1"/>
+<Vertex position="0, 0, 120" uv="0, 0"/>
+<Vertex position="-88, 0, 8" uv="1, 1"/>
+<Vertex position="-80, 0, 80" uv="0, 1"/>
+<Vertex position="-16, 0, 80" uv="0, 0"/>
+<Vertex position="-32, 0, 80" uv="0, 0"/>
+<Vertex position="-104, 20, 120" uv="0, 1"/>
+<Vertex position="-24, 20, -40" uv="1, 0"/>
+<Vertex position="-88, 20, -40" uv="0, 1"/>
+<Vertex position="-104, 2, 104" uv="0, 0"/>
+</VertexBuffer>
+<IndexBuffer name="ib">
+<Triangle indices="0, 20, 26"/>
+<Triangle indices="15, 0, 20"/>
+<Triangle indices="43, 21, 24"/>
+<Triangle indices="42, 43, 21"/>
+<Triangle indices="25, 28, 26"/>
+<Triangle indices="28, 27, 25"/>
+<Triangle indices="16, 19, 17"/>
+<Triangle indices="18, 19, 16"/>
+<Triangle indices="32, 33, 31"/>
+<Triangle indices="34, 32, 33"/>
+<Triangle indices="2, 4, 1"/>
+<Triangle indices="3, 2, 4"/>
+<Triangle indices="1, 13, 5"/>
+<Triangle indices="14, 1, 13"/>
+<Triangle indices="28, 27, 0"/>
+<Triangle indices="61, 27, 47"/>
+<Triangle indices="27, 50, 47"/>
+<Triangle indices="27, 0, 45"/>
+<Triangle indices="45, 27, 50"/>
+<Triangle indices="0, 5, 45"/>
+<Triangle indices="45, 5, 46"/>
+<Triangle indices="28, 26, 49"/>
+<Triangle indices="49, 28, 51"/>
+<Triangle indices="65, 64, 52"/>
+<Triangle indices="49, 52, 64"/>
+<Triangle indices="62, 15, 53"/>
+<Triangle indices="53, 15, 54"/>
+<Triangle indices="15, 16, 54"/>
+<Triangle indices="54, 16, 55"/>
+<Triangle indices="17, 16, 55"/>
+<Triangle indices="55, 16, 56"/>
+<Triangle indices="15, 16, 54"/>
+<Triangle indices="54, 16, 55"/>
+<Triangle indices="17, 16, 55"/>
+<Triangle indices="17, 56, 55"/>
+<Triangle indices="17, 19, 56"/>
+<Triangle indices="58, 56, 19"/>
+<Triangle indices="18, 19, 57"/>
+<Triangle indices="19, 57, 58"/>
+<Triangle indices="63, 20, 59"/>
+<Triangle indices="59, 60, 63"/>
+<Triangle indices="21, 24, 66"/>
+<Triangle indices="24, 47, 66"/>
+<Triangle indices="18, 21, 66"/>
+<Triangle indices="18, 57, 66"/>
+<Triangle indices="5, 2, 46"/>
+<Triangle indices="2, 46, 67"/>
+<Triangle indices="2, 3, 67"/>
+<Triangle indices="3, 67, 68"/>
+<Triangle indices="3, 4, 53"/>
+<Triangle indices="3, 53, 68"/>
+<Triangle indices="20, 69, 19"/>
+</IndexBuffer>
+<Texture name="texture" filename="black.tga"/>
+<Batch
+name="draw"
+vertexBuffer="draw"
+indexBuffer="ib"
+texture="texture"
+blend="opaque">
+</Batch>
+<Batch 
+name="collision"
+vertexBuffer="collision"
+indexBuffer="ib"
+</Batch>
